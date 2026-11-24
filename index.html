@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STIN — Study Together in NRW</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="stage">
+        <!-- Sağ Üstte Koyu Mor & Sarı Hibiskus -->
+        <svg class="hibiscus-corner" viewBox="0 0 320 320" fill="none" aria-hidden="true">
+            <defs>
+                <radialGradient id="hibPurpleGrad" cx="38%" cy="22%" r="78%">
+                    <stop offset="0%" stop-color="#6b349c" stop-opacity="0.68"/>
+                    <stop offset="55%" stop-color="#3c185e" stop-opacity="0.64"/>
+                    <stop offset="100%" stop-color="#220938" stop-opacity="0.78"/>
+                </radialGradient>
+
+                <radialGradient id="hibGoldGrad" cx="38%" cy="22%" r="78%">
+                    <stop offset="0%" stop-color="#f9d876" stop-opacity="0.75"/>
+                    <stop offset="58%" stop-color="#e5a923" stop-opacity="0.62"/>
+                    <stop offset="100%" stop-color="#9e6d07" stop-opacity="0.72"/>
+                </radialGradient>
+
+                <pattern id="petalFibers" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(18)">
+                    <line x1="0" y1="0" x2="0" y2="12" stroke="#ffffff" stroke-opacity="0.14" stroke-width="0.7"/>
+                    <line x1="5" y1="0" x2="5" y2="12" stroke="#1e0b30" stroke-opacity="0.18" stroke-width="0.6"/>
+                </pattern>
+            </defs>
+
+            <path d="M225 45 C255 32, 286 55, 274 88 C262 118, 228 105, 214 78 Z"
+                  fill="#3c185e" fill-opacity="0.28"/>
+
+            <g transform="translate(188, 92)">
+                <path d="M0 -3 C-17 -26, -36 -60, -9 -72 C15 -80, 24 -50, 4 -12 Z" fill="url(#hibPurpleGrad)"/>
+                <path d="M0 -3 C-17 -26, -36 -60, -9 -72 C15 -80, 24 -50, 4 -12 Z" fill="url(#petalFibers)"/>
+                <path d="M3 -1 C28 -15, 66 -30, 75 -4 C81 20, 48 24, 10 4 Z" fill="url(#hibPurpleGrad)"/>
+                <path d="M3 -1 C28 -15, 66 -30, 75 -4 C81 20, 48 24, 10 4 Z" fill="url(#petalFibers)"/>
+                <path d="M2 2 C24 22, 48 54, 24 70 C2 85, -11 55, 0 13 Z" fill="url(#hibPurpleGrad)"/>
+                <path d="M2 2 C24 22, 48 54, 24 70 C2 85, -11 55, 0 13 Z" fill="url(#petalFibers)"/>
+                <path d="M-2 2 C-17 28, -42 62, -65 47 C-86 32, -60 6, -13 1 Z" fill="url(#hibPurpleGrad)"/>
+                <path d="M-2 2 C-17 28, -42 62, -65 47 C-86 32, -60 6, -13 1 Z" fill="url(#petalFibers)"/>
+                <path d="M-3 -1 C-30 -6, -68 -19, -62 -45 C-56 -68, -26 -51, -6 -10 Z" fill="url(#hibPurpleGrad)"/>
+                <path d="M-3 -1 C-30 -6, -68 -19, -62 -45 C-56 -68, -26 -51, -6 -10 Z" fill="url(#petalFibers)"/>
+
+                <circle cx="0" cy="0" r="10" fill="#220938" fill-opacity="0.85"/>
+                <circle cx="0" cy="0" r="4.5" fill="#f5c84c" fill-opacity="0.9"/>
+                <path d="M0 0 Q18 -22 38 -42" stroke="#f5c84c" stroke-width="2" stroke-linecap="round" stroke-opacity="0.85"/>
+                <circle cx="33" cy="-34" r="2.2" fill="#f9d876"/>
+                <circle cx="38" cy="-39" r="2.3" fill="#f9d876"/>
+                <circle cx="42" cy="-44" r="2.5" fill="#f9d876"/>
+            </g>
+
+            <g transform="translate(94, 184)">
+                <path d="M0 -3 C-14 -22, -30 -50, -7 -60 C12 -67, 20 -42, 3 -10 Z" fill="url(#hibGoldGrad)"/>
+                <path d="M2 -1 C23 -12, 54 -25, 62 -3 C67 16, 40 20, 8 3 Z" fill="url(#hibGoldGrad)"/>
+                <path d="M2 2 C20 18, 40 45, 20 58 C2 70, -9 46, 0 11 Z" fill="url(#hibGoldGrad)"/>
+                <path d="M-2 2 C-14 23, -35 51, -54 39 C-71 26, -50 5, -11 1 Z" fill="url(#hibGoldGrad)"/>
+                <path d="M-2 -1 C-25 -5, -56 -16, -51 -37 C-46 -56, -22 -42, -5 -8 Z" fill="url(#hibGoldGrad)"/>
+
+                <circle cx="0" cy="0" r="8" fill="#3c185e" fill-opacity="0.82"/>
+                <circle cx="0" cy="0" r="3.8" fill="#f9d876" fill-opacity="0.85"/>
+                <path d="M0 0 Q15 -18 31 -34" stroke="#3c185e" stroke-width="2" stroke-linecap="round" stroke-opacity="0.8"/>
+                <circle cx="31" cy="-31" r="2.1" fill="#3c185e"/>
+                <circle cx="34" cy="-35" r="2.2" fill="#3c185e"/>
+            </g>
+        </svg>
+
+        <!-- Sol Alt Köşede Turna Kuşu -->
+        <svg class="crane-corner" viewBox="0 0 320 320" fill="none" aria-hidden="true">
+            <defs>
+                <linearGradient id="craneBodyGrad" x1="15%" y1="15%" x2="85%" y2="85%">
+                    <stop offset="0%" stop-color="#4e2278" stop-opacity="0.62"/>
+                    <stop offset="60%" stop-color="#2c1347" stop-opacity="0.58"/>
+                    <stop offset="100%" stop-color="#e5a923" stop-opacity="0.55"/>
+                </linearGradient>
+                <linearGradient id="craneWingGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#f5c84c" stop-opacity="0.64"/>
+                    <stop offset="100%" stop-color="#4e2278" stop-opacity="0.52"/>
+                </linearGradient>
+            </defs>
+
+            <path d="M72 222 C44 234, 24 252, 16 268 C34 262, 56 248, 82 230 Z" fill="url(#craneWingGrad)"/>
+            <path d="M76 226 C54 246, 42 266, 38 282 C54 270, 70 250, 88 232 Z" fill="url(#craneBodyGrad)"/>
+            <path d="M72 220 C102 204, 138 198, 168 206 C152 228, 118 240, 78 230 Z" fill="url(#craneBodyGrad)"/>
+            <path d="M158 206 C174 176, 178 138, 170 104 C167 90, 174 78, 186 78 C196 78, 202 86, 198 94 C194 100, 186 98, 183 106 C188 140, 184 178, 168 210 Z"
+                  fill="url(#craneBodyGrad)"/>
+            <path d="M198 85 L228 92 L197 91 Z" fill="#e5a923" fill-opacity="0.8"/>
+            <circle cx="189" cy="85" r="2.2" fill="#220938" fill-opacity="0.85"/>
+            <path d="M114 206 C112 166, 134 128, 166 112 C152 142, 144 172, 142 204 Z" fill="url(#craneWingGrad)"/>
+            <path d="M108 232 L96 272 M118 232 L112 276" stroke="#3c185e" stroke-width="1.3" stroke-linecap="round" stroke-opacity="0.55"/>
+        </svg>
+
+        <!-- Marka Başlığı + Logo Yanı Hibiskus -->
+        <header class="brand-header">
+            <div class="brand-lockup">
+                <span class="brand-title">STIN</span>
+                <svg class="brand-hibiscus" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+                    <path d="M32 30 C24 16, 18 4, 29 2 C39 0, 41 14, 34 30 Z" fill="#3c185e" fill-opacity="0.9"/>
+                    <path d="M34 31 C48 23, 62 20, 62 31 C62 41, 47 40, 34 33 Z" fill="#e5a923" fill-opacity="0.9"/>
+                    <path d="M33 33 C44 45, 50 58, 39 62 C29 65, 25 50, 31 34 Z" fill="#6b349c" fill-opacity="0.88"/>
+                    <path d="M30 33 C18 46, 6 54, 2 44 C-2 34, 12 28, 30 32 Z" fill="#f5c84c" fill-opacity="0.9"/>
+                    <path d="M30 31 C14 25, 2 16, 8 7 C14 -1, 23 12, 31 30 Z" fill="#2c1347" fill-opacity="0.88"/>
+                    <circle cx="32" cy="32" r="5" fill="#220938"/>
+                    <path d="M32 32 Q41 22 48 14" stroke="#f5c84c" stroke-width="1.8" stroke-linecap="round"/>
+                    <circle cx="45" cy="18" r="1.8" fill="#f9d876"/>
+                    <circle cx="49" cy="14" r="2" fill="#f9d876"/>
+                </svg>
+            </div>
+            <p class="brand-sub">Study Together in NRW</p>
+        </header>
+
+        <!-- ADIM 1: OKUL & BÖLÜM -->
+        <section class="step-card active" id="screen-setup">
+            <span class="step-tag">Schritt 01</span>
+            <h2>Hochschule & Studiengang wählen</h2>
+            <p class="step-desc">Wähle deine Hochschule und deinen Studiengang in NRW.</p>
+
+            <div class="field-group">
+                <label for="uni-select">Hochschule / Universität</label>
+                <select id="uni-select">
+                    <option value="fh-dortmund">FH Dortmund</option>
+                    <option value="tu-dortmund">TU Dortmund</option>
+                    <option value="rub">Ruhr-Universität Bochum</option>
+                </select>
+            </div>
+
+            <div class="field-group">
+                <label for="major-select">Studiengang</label>
+                <select id="major-select">
+                    <option value="informatik">Bachelor Informatik (Modulhandbuch)</option>
+                    <option value="praktische-inf">Praktische Informatik</option>
+                    <option value="data-science">Data Science</option>
+                </select>
+            </div>
+
+            <div class="actions">
+                <button type="button" class="btn-next" id="to-login-btn">Weiter</button>
+            </div>
+        </section>
+
+        <!-- ADIM 2: GİRİŞ -->
+        <section class="step-card" id="screen-login">
+            <span class="step-tag">Schritt 02</span>
+            <h2>Anmeldung</h2>
+            <p class="step-desc">Melde dich mit deinem Benutzernamen, deiner Uni-Mail und deinem Passwort an.</p>
+
+            <div class="field-group">
+                <label for="login-user">Benutzername oder Uni-Mail</label>
+                <input type="text" id="login-user" placeholder="z. B. zuelal@fh-dortmund.de">
+            </div>
+
+            <div class="field-group">
+                <label for="login-password">Passwort</label>
+                <input type="password" id="login-password" placeholder="••••••••">
+            </div>
+
+            <div class="actions split">
+                <button type="button" class="btn-ghost" id="back-to-setup-btn">Zurück</button>
+                <button type="button" class="btn-next" id="login-submit-btn">Einloggen</button>
+            </div>
+        </section>
+
+        <!-- ADIM 3: TEMİZ MODULHANDBUCH / DERS PROGRAMI -->
+        <section class="panel-shell" id="screen-curriculum">
+            <div class="curriculum-top-bar">
+                <span class="badge" id="meta-summary">FH Dortmund · Bachelor Informatik</span>
+                <button type="button" class="btn-ghost small" id="back-to-setup-from-curr">← Auswahl ändern</button>
+            </div>
+
+            <div class="curriculum-header">
+                <div>
+                    <h2>Modulhandbuch & Semesterplan</h2>
+                    <p class="step-desc">Wähle ein Modul aus, um Notiz-Stories und Lerngruppen zu öffnen.</p>
+                </div>
+                <div class="semester-filter" id="semester-filter">
+                    <button type="button" class="filter-chip active" data-sem="all">Alle (1–6)</button>
+                    <button type="button" class="filter-chip" data-sem="1">1. Sem</button>
+                    <button type="button" class="filter-chip" data-sem="2">2. Sem</button>
+                    <button type="button" class="filter-chip" data-sem="3">3. Sem</button>
+                    <button type="button" class="filter-chip" data-sem="4">4. Sem</button>
+                    <button type="button" class="filter-chip" data-sem="5">5. Sem</button>
+                    <button type="button" class="filter-chip" data-sem="6">6. Sem</button>
+                </div>
+            </div>
+
+            <div class="handbook-board" id="handbook-board"></div>
+        </section>
+
+        <!-- ADIM 4: DERS SAYFASI -->
+        <section class="panel-shell" id="screen-course">
+            <div class="course-top-bar">
+                <div class="meta-group">
+                    <button type="button" class="btn-ghost small" id="back-to-handbook-btn">← Module</button>
+                    <span class="badge" id="active-course-badge">Modul</span>
+                </div>
+
+                <div class="top-right-actions">
+                    <button type="button" class="top-nav-btn" id="open-notebook-btn">
+                        <span>Notizbuch</span>
+                        <strong id="saved-count-badge">0</strong>
+                    </button>
+                    <button type="button" class="top-nav-btn profile-btn" id="open-profile-btn">
+                        <span>Profil</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="stories-block">
+                <div class="block-head">
+                    <h3>Notiz-Stories</h3>
+                    <span class="hint">Farbiger Ring = neu · Nach dem Öffnen neutral · Wischen zum Wechseln</span>
+                </div>
+                <div class="ig-stories-row" id="course-stories"></div>
+            </div>
+
+            <div class="groups-block">
+                <div class="block-head">
+                    <h3>Lerngruppen & Direktnachrichten</h3>
+                    <span class="hint" id="group-count-label">Gruppen & Chat</span>
+                </div>
+                <div class="wa-group-list" id="course-groups"></div>
+            </div>
+
+            <div class="bottom-plus-wrap">
+                <button type="button" class="bottom-plus-btn" id="open-create-group-btn" title="Neue Gruppe erstellen">+</button>
+                <span class="bottom-plus-label">Neue Gruppe erstellen</span>
+            </div>
+        </section>
+
+        <!-- NOT DEFTERİ SAYFASI -->
+        <section class="panel-shell" id="screen-notebook">
+            <div class="course-top-bar">
+                <div class="meta-group">
+                    <button type="button" class="btn-ghost small" id="back-from-notebook-btn">← Zurück</button>
+                    <span class="badge">Notizbuch</span>
+                </div>
+                <button type="button" class="top-nav-btn profile-btn" id="open-profile-from-notebook">
+                    <span>Profil</span>
+                </button>
+            </div>
+
+            <div class="notebook-head">
+                <h2>Gespeicherte Notizen & Eigener Notizblock</h2>
+                <p class="step-desc">Gespeicherte iPad-Stories ansehen oder eigene Notizen hinzufügen.</p>
+            </div>
+
+            <div class="custom-note-box">
+                <input type="text" id="custom-note-title" placeholder="Titel deiner Notiz (z. B. Übungsblatt 4 – Rekursion)">
+                <textarea id="custom-note-body" rows="3" placeholder="Deine eigene Notiz oder Zusammenfassung..."></textarea>
+                <div class="actions">
+                    <button type="button" class="btn-next" id="add-custom-note-btn">Notiz speichern</button>
+                </div>
+            </div>
+
+            <div class="notebook-grid" id="notebook-list"></div>
+        </section>
+
+        <!-- PROFİL SAYFASI (SADE, ESTETİK VE PROFESYONEL) -->
+        <section class="panel-shell" id="screen-profile">
+            <div class="course-top-bar">
+                <div class="meta-group">
+                    <button type="button" class="btn-ghost small" id="back-from-profile-btn">← Zurück</button>
+                    <span class="badge">Profil</span>
+                </div>
+                <button type="button" class="top-nav-btn" id="open-notebook-from-profile">
+                    <span>Notizbuch</span>
+                </button>
+            </div>
+
+            <div class="profile-layout">
+                <div class="profile-card-clean">
+                    <div class="profile-top-row">
+                        <div class="profile-monogram" id="profile-monogram">Z</div>
+                        <div>
+                            <span class="step-tag">Kontoübersicht</span>
+                            <h2 id="profile-display-name">zuelal@fh-dortmund.de</h2>
+                            <p class="step-desc" id="profile-study-line">FH Dortmund · Bachelor Informatik</p>
+                        </div>
+                    </div>
+
+                    <div class="profile-credentials-box">
+                        <div class="cred-item">
+                            <span class="cred-label">E-Mail / Benutzername</span>
+                            <strong class="cred-value" id="profile-email-val">zuelal@fh-dortmund.de</strong>
+                        </div>
+                        <div class="cred-item">
+                            <span class="cred-label">Passwort</span>
+                            <div class="cred-password-wrap">
+                                <strong class="cred-value" id="profile-password-val">••••••••</strong>
+                                <button type="button" class="btn-ghost small" id="toggle-password-btn">Anzeigen</button>
+                            </div>
+                        </div>
+                        <div class="cred-item">
+                            <span class="cred-label">Hochschule</span>
+                            <strong class="cred-value" id="profile-uni-val">FH Dortmund</strong>
+                        </div>
+                        <div class="cred-item">
+                            <span class="cred-label">Studiengang</span>
+                            <strong class="cred-value" id="profile-major-val">Bachelor Informatik</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="profile-side-clean">
+                    <div class="profile-metrics-grid">
+                        <div class="metric-tile">
+                            <strong id="metric-saved">0</strong>
+                            <span>Gespeicherte Notizen</span>
+                        </div>
+                        <div class="metric-tile">
+                            <strong id="metric-liked">0</strong>
+                            <span>Gelikte Stories</span>
+                        </div>
+                    </div>
+
+                    <div class="profile-activity-card">
+                        <h3>Aktuelle Lernübersicht</h3>
+                        <p class="step-desc">Deine gespeicherten Notizen und aktiven Lernräume auf einen Blick.</p>
+                        <div class="profile-activity-list" id="profile-activity-list"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- IPAD DEFTER GÖRÜNÜMLÜ STORY NOT PENCERESİ -->
+    <div class="modal-backdrop" id="story-modal">
+        <div class="ipad-story-modal">
+            <div class="ipad-sheet-wrap" id="ipad-swipe-zone">
+                <div class="ipad-sheet">
+                    <div class="ipad-top-strip">
+                        <span class="ipad-user-badge" id="ipad-username-badge">@lina.nrw</span>
+                        <span class="ipad-story-counter" id="ipad-story-counter">1 / 6</span>
+                    </div>
+                    <div class="ipad-hand-title" id="ipad-note-header">MATHE · VEKTOREN</div>
+                    <div class="ipad-note-meta" id="ipad-note-author">Von @lina.nrw · iPad GoodNotes</div>
+
+                    <div class="ipad-two-col">
+                        <div class="ipad-col">
+                            <div class="ipad-highlight-pink">Punkte & Vektoren</div>
+                            <div class="ipad-hand-text" id="ipad-col-left"></div>
+                            <div class="ipad-diagram-box" id="ipad-diagram"></div>
+                        </div>
+                        <div class="ipad-col">
+                            <div class="ipad-highlight-peach">Kernregeln & Beispiele</div>
+                            <div class="ipad-hand-text" id="ipad-col-right"></div>
+                        </div>
+                    </div>
+
+                    <div class="ipad-swipe-hint">← Wischen oder Pfeile nutzen für nächste Story →</div>
+                </div>
+            </div>
+
+            <aside class="ipad-side-controls">
+                <button type="button" class="close-x side-close" id="close-story-modal" title="Schließen">✕</button>
+
+                <button type="button" class="ipad-action-btn" id="prev-story-btn" title="Vorherige Story">
+                    <span class="action-icon">‹</span>
+                    <span class="action-label">Zurück</span>
+                </button>
+
+                <button type="button" class="ipad-action-btn" id="next-story-btn" title="Nächste Story">
+                    <span class="action-icon">›</span>
+                    <span class="action-label">Weiter</span>
+                </button>
+
+                <button type="button" class="ipad-action-btn" id="modal-like-btn">
+                    <span class="action-icon" id="modal-like-icon">♡</span>
+                    <span class="action-label">Like</span>
+                    <strong id="modal-like-count">0</strong>
+                </button>
+
+                <button type="button" class="ipad-action-btn" id="modal-save-btn">
+                    <span class="action-icon" id="modal-save-icon">🔖</span>
+                    <span class="action-label" id="modal-save-text">Speichern</span>
+                </button>
+            </aside>
+        </div>
+    </div>
+
+    <!-- WHATSAPP GRUP & BİREBİR SOHBET PENCERESİ -->
+    <div class="modal-backdrop" id="chat-modal">
+        <div class="wa-chat-window">
+            <div class="wa-chat-header">
+                <div class="wa-chat-header-left">
+                    <div class="wa-chat-avatar" id="chat-group-avatar">Ü</div>
+                    <div>
+                        <div class="wa-chat-title" id="chat-group-title">Gruppenname</div>
+                        <div class="wa-chat-members" id="chat-group-members">Mitglieder</div>
+                    </div>
+                </div>
+                <button type="button" class="close-x light-x" id="close-chat-modal">✕</button>
+            </div>
+
+            <div class="wa-chat-body" id="chat-messages"></div>
+
+            <div class="wa-photo-preview" id="wa-photo-preview"></div>
+
+            <div class="wa-chat-footer">
+                <input type="file" id="chat-photo-input" accept="image/*" hidden>
+                <button type="button" class="wa-photo-btn" id="wa-photo-trigger" title="Foto hochladen">📷</button>
+                <input type="text" id="chat-message-input" placeholder="Nachricht schreiben...">
+                <button type="button" class="wa-send-btn" id="send-chat-btn">➤</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- YENİ GRUP OLUŞTURMA PENCERESİ ('+' BUTONU) -->
+    <div class="modal-backdrop" id="group-modal">
+        <div class="create-group-card">
+            <div class="create-group-top">
+                <div>
+                    <span class="step-tag">Lerngruppe</span>
+                    <h3>Neue Lerngruppe erstellen</h3>
+                </div>
+                <button type="button" class="close-x" id="close-group-modal" title="Schließen">✕</button>
+            </div>
+            <div class="field-group">
+                <label for="new-group-name">Gruppenname</label>
+                <input type="text" id="new-group-name" placeholder="z. B. Übungsblatt 13 Gruppe">
+            </div>
+            <div class="field-group">
+                <label for="new-group-members">Mitglieder</label>
+                <input type="text" id="new-group-members" placeholder="z. B. Esra, Lina, Du">
+            </div>
+            <div class="actions">
+                <button type="button" class="btn-next" id="save-new-group-btn">Gruppe anlegen</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
